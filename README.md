@@ -24,4 +24,4 @@ Running YARA and the 'my_yara_rules.yar' ruleset against c:\windows\system32 on 
     Running YARA and the 'my_yara_rules.yar' ruleset against c:\windows\system32 on the IP or IPs listed in computers.txt.
 
 # Credits
-Huge thanks to @psmitty7373 for developing Evil Inject Finder.
+Huge thanks to Victor M. Alvarez for developing YARA.
