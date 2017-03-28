@@ -17,11 +17,12 @@ Deploy-YarPoSh.ps1 provides the following capability:
 
 # Examples
 Running YARA and the 'my_yara_rules.yar' ruleset against c:\windows\system32 on a specific IP.
+
         PS C:\> .\Deploy-YarPosH.ps1 -ComputerName 172.16.155.201 -Dir c:\windows\system32 -Path C:\users\blue\Desktop\yara32.exe -Rules C:\users\blue\Desktop\my_yara_rules.yar
 
+Running YARA and the 'my_yara_rules.yar' ruleset against c:\windows\system32 on the IP or IPs listed in computers.txt.
+    
     .\Deploy-YarPosH.ps1 -ComputerName c:\users\blue\computers.txt -Dir c:\windows\system32 -Path C:\users\blue\Desktop\yara32.exe -Rules C:\users\blue\Desktop\my_yara_rules.yar
-
-    Running YARA and the 'my_yara_rules.yar' ruleset against c:\windows\system32 on the IP or IPs listed in computers.txt.
 
 # Credits
 Huge thanks to Victor M. Alvarez for developing YARA.
