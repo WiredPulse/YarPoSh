@@ -1,6 +1,4 @@
 ![Alt text](https://github.com/WiredPulse/YarPoSh/blob/master/Images/YarPoSh.png?raw=true "Optional Title")
-
-# YarPoSh
 Remoting Capability for Deploying YARA Across an Enterprise 
 
 # About
